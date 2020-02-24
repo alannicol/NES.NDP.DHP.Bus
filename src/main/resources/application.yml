@@ -1,0 +1,3 @@
+azure:
+  service-bus:
+    connection-string: Endpoint=sb://sb-nes-ndp-innov-uks-qa-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BBb+0rWfIhpyCh1uWqpdQornpR8yhIdVgnMcxui+Wb4=
