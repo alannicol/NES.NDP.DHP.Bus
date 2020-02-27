@@ -1,3 +1,4 @@
 azure:
   service-bus:
-    connection-string: Endpoint=sb://sb-nes-ndp-innov-uks-qa-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BBb+0rWfIhpyCh1uWqpdQornpR8yhIdVgnMcxui+Wb4=
+    connection-string: Endpoint=sb://ndp-uat-dhp-fhir-sbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BLp3m3+RQlFbLxDnQyUWi3QYGrGfMQrvvFhjohj5B0g=
+    queue-name: dhp-service-bus-queue

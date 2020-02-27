@@ -23,13 +23,19 @@ public class AzureProperties {
 
     @ResolvedEnvironmentVariable
     private final String connectionString;
+    private final String queueName;
 
-    public ServiceBus(String connectionString) {
+    public ServiceBus(String connectionString, String queueName) {
       this.connectionString = connectionString;
+      this.queueName = queueName;
     }
 
     public String getConnectionString() {
       return connectionString;
+    }
+
+    public String getQueueName() {
+      return queueName;
     }
   }
 }
